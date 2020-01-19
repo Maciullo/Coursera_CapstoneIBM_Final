@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_60cde70dd3ce40b2afed6b507a19bc44 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_60cde70dd3ce40b2afed6b507a19bc44" ></div>
+        
+</body>
+<script>    
+    
+            var map_60cde70dd3ce40b2afed6b507a19bc44 = L.map(
+                "map_60cde70dd3ce40b2afed6b507a19bc44",
+                {
+                    center: [52.2337172, 21.07141112883227],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90e414bc71244c18a7f2456cd42584f2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+            var circle_marker_a7ab74fac6cb4aa48ebc2147dad98b47 = L.circleMarker(
+                [52.23960595108694, 20.899061413043484],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_465105e1360f431881bcd3bbaeb17b38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_955522acd18a498396bdb1e0cc8a2768 = $(`<div id="html_955522acd18a498396bdb1e0cc8a2768" style="width: 100.0%; height: 100.0%;">Bemowo Cluster 1</div>`)[0];
+            popup_465105e1360f431881bcd3bbaeb17b38.setContent(html_955522acd18a498396bdb1e0cc8a2768);
+        
+
+        circle_marker_a7ab74fac6cb4aa48ebc2147dad98b47.bindPopup(popup_465105e1360f431881bcd3bbaeb17b38)
+        ;
+
+        
+    
+    
+            var circle_marker_6b0a7e33779345c092051748b413ce03 = L.circleMarker(
+                [52.32844438429751, 20.998762640495876],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_c802ed7d068042a59509fbea248bec35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c41829163ef4563b7f6e849b2fc89ce = $(`<div id="html_8c41829163ef4563b7f6e849b2fc89ce" style="width: 100.0%; height: 100.0%;">Białołęka Cluster 2</div>`)[0];
+            popup_c802ed7d068042a59509fbea248bec35.setContent(html_8c41829163ef4563b7f6e849b2fc89ce);
+        
+
+        circle_marker_6b0a7e33779345c092051748b413ce03.bindPopup(popup_c802ed7d068042a59509fbea248bec35)
+        ;
+
+        
+    
+    
+            var circle_marker_a62e700bb26f4f7eadb0443c3069e02f = L.circleMarker(
+                [52.296864753424664, 20.92906962328768],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_5e80a20651274480b0d2dd1371d94452 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17865891ec994c219254112bb47d7272 = $(`<div id="html_17865891ec994c219254112bb47d7272" style="width: 100.0%; height: 100.0%;">Bielany Cluster 1</div>`)[0];
+            popup_5e80a20651274480b0d2dd1371d94452.setContent(html_17865891ec994c219254112bb47d7272);
+        
+
+        circle_marker_a62e700bb26f4f7eadb0443c3069e02f.bindPopup(popup_5e80a20651274480b0d2dd1371d94452)
+        ;
+
+        
+    
+    
+            var circle_marker_403a8330fb344ee9aea92cf701c1d7ff = L.circleMarker(
+                [52.1895439731183, 21.047262747311837],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_dc24f03a80a54e06a461178500750582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_894b9aed17434f25b82861ff24d3d98e = $(`<div id="html_894b9aed17434f25b82861ff24d3d98e" style="width: 100.0%; height: 100.0%;">Mokotów Cluster 0</div>`)[0];
+            popup_dc24f03a80a54e06a461178500750582.setContent(html_894b9aed17434f25b82861ff24d3d98e);
+        
+
+        circle_marker_403a8330fb344ee9aea92cf701c1d7ff.bindPopup(popup_dc24f03a80a54e06a461178500750582)
+        ;
+
+        
+    
+    
+            var circle_marker_bd78c82b195a44c08bff453a2105c953 = L.circleMarker(
+                [52.21404998412699, 20.961090412698415],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_5d99242d94f9475192dc23632d51e5e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf14b691482b487bb4850f401efe9d58 = $(`<div id="html_bf14b691482b487bb4850f401efe9d58" style="width: 100.0%; height: 100.0%;">Ochota Cluster 0</div>`)[0];
+            popup_5d99242d94f9475192dc23632d51e5e7.setContent(html_bf14b691482b487bb4850f401efe9d58);
+        
+
+        circle_marker_bd78c82b195a44c08bff453a2105c953.bindPopup(popup_5d99242d94f9475192dc23632d51e5e7)
+        ;
+
+        
+    
+    
+            var circle_marker_498048291381448389319f76849cf97b = L.circleMarker(
+                [52.24474941807907, 21.07417436723164],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_5f3817ae4c4245c4ba03890db39fd060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a229cf7a17e4e9bbaa5d8cd860ffb32 = $(`<div id="html_6a229cf7a17e4e9bbaa5d8cd860ffb32" style="width: 100.0%; height: 100.0%;">Praga Południe Cluster 0</div>`)[0];
+            popup_5f3817ae4c4245c4ba03890db39fd060.setContent(html_6a229cf7a17e4e9bbaa5d8cd860ffb32);
+        
+
+        circle_marker_498048291381448389319f76849cf97b.bindPopup(popup_5f3817ae4c4245c4ba03890db39fd060)
+        ;
+
+        
+    
+    
+            var circle_marker_0244528536dd4dacad9c94f6cca0ba85 = L.circleMarker(
+                [52.265505574380164, 21.034592801652902],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_f6fe9b55d9a844cc95a0aaeb1e8d6ab5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_001102dbfec04db8b3102d9884c93746 = $(`<div id="html_001102dbfec04db8b3102d9884c93746" style="width: 100.0%; height: 100.0%;">Praga Północ Cluster 0</div>`)[0];
+            popup_f6fe9b55d9a844cc95a0aaeb1e8d6ab5.setContent(html_001102dbfec04db8b3102d9884c93746);
+        
+
+        circle_marker_0244528536dd4dacad9c94f6cca0ba85.bindPopup(popup_f6fe9b55d9a844cc95a0aaeb1e8d6ab5)
+        ;
+
+        
+    
+    
+            var circle_marker_a3eaa70212814a4e88eb87a7b03fa3c7 = L.circleMarker(
+                [52.25917392727273, 21.154148218181813],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_0ea14d29149d47c59a7f3a102bbf784f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_634e378980cb43f3ac39fe1c6ec78528 = $(`<div id="html_634e378980cb43f3ac39fe1c6ec78528" style="width: 100.0%; height: 100.0%;">Rembertów Cluster 2</div>`)[0];
+            popup_0ea14d29149d47c59a7f3a102bbf784f.setContent(html_634e378980cb43f3ac39fe1c6ec78528);
+        
+
+        circle_marker_a3eaa70212814a4e88eb87a7b03fa3c7.bindPopup(popup_0ea14d29149d47c59a7f3a102bbf784f)
+        ;
+
+        
+    
+    
+            var circle_marker_6cf48afb08204349a84534e305add11c = L.circleMarker(
+                [52.283010967532476, 21.047593753246755],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_1e84f6cea3194452b79c7e3f08992a30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_615fa16158e24f9f961459a11bec4230 = $(`<div id="html_615fa16158e24f9f961459a11bec4230" style="width: 100.0%; height: 100.0%;">Targówek Cluster 1</div>`)[0];
+            popup_1e84f6cea3194452b79c7e3f08992a30.setContent(html_615fa16158e24f9f961459a11bec4230);
+        
+
+        circle_marker_6cf48afb08204349a84534e305add11c.bindPopup(popup_1e84f6cea3194452b79c7e3f08992a30)
+        ;
+
+        
+    
+    
+            var circle_marker_3c4cb313199d4ee39a1597df0b9a0cd8 = L.circleMarker(
+                [52.19589754074073, 20.876551140740748],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_b353a8fdf7194f6da04e90e96aa4fc20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eb8c3e0de104510a2c469ea79575c81 = $(`<div id="html_8eb8c3e0de104510a2c469ea79575c81" style="width: 100.0%; height: 100.0%;">Ursus Cluster 1</div>`)[0];
+            popup_b353a8fdf7194f6da04e90e96aa4fc20.setContent(html_8eb8c3e0de104510a2c469ea79575c81);
+        
+
+        circle_marker_3c4cb313199d4ee39a1597df0b9a0cd8.bindPopup(popup_b353a8fdf7194f6da04e90e96aa4fc20)
+        ;
+
+        
+    
+    
+            var circle_marker_3b09a9c23fac445da31b471547ea74b5 = L.circleMarker(
+                [52.125437371428575, 21.050433435714282],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_5bb5057882db4122b2b100e87c59cf02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d9d2bd653c34c6fbfc7caa5e9b30dbb = $(`<div id="html_2d9d2bd653c34c6fbfc7caa5e9b30dbb" style="width: 100.0%; height: 100.0%;">Ursynów Cluster 1</div>`)[0];
+            popup_5bb5057882db4122b2b100e87c59cf02.setContent(html_2d9d2bd653c34c6fbfc7caa5e9b30dbb);
+        
+
+        circle_marker_3b09a9c23fac445da31b471547ea74b5.bindPopup(popup_5bb5057882db4122b2b100e87c59cf02)
+        ;
+
+        
+    
+    
+            var circle_marker_39dfa40aa44a41de8c694c8f57410a96 = L.circleMarker(
+                [52.186093873684214, 21.183993536842106],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_2826e8f29c794c21aa6b2d84cc03505c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9ad13411b064d34bb813d2464a28a12 = $(`<div id="html_b9ad13411b064d34bb813d2464a28a12" style="width: 100.0%; height: 100.0%;">Wawer Cluster 1</div>`)[0];
+            popup_2826e8f29c794c21aa6b2d84cc03505c.setContent(html_b9ad13411b064d34bb813d2464a28a12);
+        
+
+        circle_marker_39dfa40aa44a41de8c694c8f57410a96.bindPopup(popup_2826e8f29c794c21aa6b2d84cc03505c)
+        ;
+
+        
+    
+    
+            var circle_marker_d53070d86b294ab58dde4d06c6086fc9 = L.circleMarker(
+                [52.22516667777778, 21.223771322222227],
+                {"bubblingMouseEvents": true, "color": "#80ffb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#80ffb4", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_92124390f96d4a65b650bd70949d9f26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adcf110f3ddd446781e1f77aa94d735f = $(`<div id="html_adcf110f3ddd446781e1f77aa94d735f" style="width: 100.0%; height: 100.0%;">Wesoła Cluster 2</div>`)[0];
+            popup_92124390f96d4a65b650bd70949d9f26.setContent(html_adcf110f3ddd446781e1f77aa94d735f);
+        
+
+        circle_marker_d53070d86b294ab58dde4d06c6086fc9.bindPopup(popup_92124390f96d4a65b650bd70949d9f26)
+        ;
+
+        
+    
+    
+            var circle_marker_2ce09b9d91c346069aaeb9da387a182f = L.circleMarker(
+                [52.147384428571456, 21.10231644081631],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_6fdce18cbef245cd93a81285b16fa07a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_728ac3f7796e4f9e9a83fe44daa6e3be = $(`<div id="html_728ac3f7796e4f9e9a83fe44daa6e3be" style="width: 100.0%; height: 100.0%;">Wilanów Cluster 1</div>`)[0];
+            popup_6fdce18cbef245cd93a81285b16fa07a.setContent(html_728ac3f7796e4f9e9a83fe44daa6e3be);
+        
+
+        circle_marker_2ce09b9d91c346069aaeb9da387a182f.bindPopup(popup_6fdce18cbef245cd93a81285b16fa07a)
+        ;
+
+        
+    
+    
+            var circle_marker_ab719d7e6f9f4cd08e53bece9d9007c3 = L.circleMarker(
+                [52.231552024539894, 20.947743969325145],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_afb6e5a7966a47b2a2d4fde370507b75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c64fd17be2f4782ae23a23d30216966 = $(`<div id="html_5c64fd17be2f4782ae23a23d30216966" style="width: 100.0%; height: 100.0%;">Wola Cluster 0</div>`)[0];
+            popup_afb6e5a7966a47b2a2d4fde370507b75.setContent(html_5c64fd17be2f4782ae23a23d30216966);
+        
+
+        circle_marker_ab719d7e6f9f4cd08e53bece9d9007c3.bindPopup(popup_afb6e5a7966a47b2a2d4fde370507b75)
+        ;
+
+        
+    
+    
+            var circle_marker_99944478622d4cbb84cb052986955dde = L.circleMarker(
+                [52.1834778265896, 20.934407028901724],
+                {"bubblingMouseEvents": true, "color": "#8000ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8000ff", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_f53da56535c045e0b7a37df763178651 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b76d9d4553b64a75ad1c7cc43aefa458 = $(`<div id="html_b76d9d4553b64a75ad1c7cc43aefa458" style="width: 100.0%; height: 100.0%;">Włochy Cluster 1</div>`)[0];
+            popup_f53da56535c045e0b7a37df763178651.setContent(html_b76d9d4553b64a75ad1c7cc43aefa458);
+        
+
+        circle_marker_99944478622d4cbb84cb052986955dde.bindPopup(popup_f53da56535c045e0b7a37df763178651)
+        ;
+
+        
+    
+    
+            var circle_marker_71356056cddd465fb848024a8dd768c8 = L.circleMarker(
+                [52.23655788513513, 21.016590189189195],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_b6fcb9fe549648b4af4cbfbb12fcf203 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1594c3a617da489da1e526461f865c92 = $(`<div id="html_1594c3a617da489da1e526461f865c92" style="width: 100.0%; height: 100.0%;">Śródmieście Cluster 0</div>`)[0];
+            popup_b6fcb9fe549648b4af4cbfbb12fcf203.setContent(html_1594c3a617da489da1e526461f865c92);
+        
+
+        circle_marker_71356056cddd465fb848024a8dd768c8.bindPopup(popup_b6fcb9fe549648b4af4cbfbb12fcf203)
+        ;
+
+        
+    
+    
+            var circle_marker_a054ff060fef45f98a14258e9190e892 = L.circleMarker(
+                [52.26554770212767, 20.983701496453893],
+                {"bubblingMouseEvents": true, "color": "#ff0000", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff0000", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_60cde70dd3ce40b2afed6b507a19bc44);
+        
+    
+        var popup_325b22d3d5b14dd0b3de6461dbeef1a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c381b49e68248e39bd6a9779b1f0e9f = $(`<div id="html_1c381b49e68248e39bd6a9779b1f0e9f" style="width: 100.0%; height: 100.0%;">Żoliborz Cluster 0</div>`)[0];
+            popup_325b22d3d5b14dd0b3de6461dbeef1a6.setContent(html_1c381b49e68248e39bd6a9779b1f0e9f);
+        
+
+        circle_marker_a054ff060fef45f98a14258e9190e892.bindPopup(popup_325b22d3d5b14dd0b3de6461dbeef1a6)
+        ;
+
+        
+    
+</script>
